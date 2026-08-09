@@ -28,7 +28,7 @@ export const AnimatedBorderButton = ({ href, children }) => {
           className="animated-border-path"
         />
       </svg>
-      <a href={href} target="blank" className="relative z-10 flex items-center justify-center gap-2">
+      <a href={href} target="_blank" className="relative z-10 flex items-center justify-center gap-2">
         {children}
       </a>
     </button>

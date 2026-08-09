@@ -3,9 +3,9 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TwitterIcon from "@mui/icons-material/Twitter";
 
 const socialLinks = [
-  { icon: GitHubIcon, href: "#", label: "GitHub" },
-  { icon: LinkedInIcon, href: "#", label: "LinkedIn" },
-  { icon: TwitterIcon, href: "#", label: "Twitter" },
+  { icon: GitHubIcon, href: "https://github.com/AbhishekSharma-86", label: "GitHub" },
+  { icon: LinkedInIcon, href: "https://www.linkedin.com/in/dontbeabhi/", label: "LinkedIn" },
+  { icon: TwitterIcon, href: "https://x.com/dontbeabhi", label: "Twitter" },
 ];
 
 const footerLinks = [
@@ -51,6 +51,7 @@ export const Footer = () => {
               <a
                 key={social.label}
                 href={social.href}
+                target="_blank"
                 aria-label={social.label}
                 className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all"
               >
